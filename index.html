@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET Mentorship Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SLIET Mentorship Platform</h1>
+            <p>Connect with experienced Computer Science faculty mentors for academic and career guidance.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About the Platform</h2>
+                <p>Our mentorship platform connects students with faculty mentors from the CS department, offering personalized academic and career guidance. Book one-on-one sessions easily based on mentor availability.</p>
+            </div>
+        </section>
+
+        <section id="mentor-list" class="container">
+            <h2>Available Mentors</h2>
+            <div id="mentor-profiles" class="mentor-grid"></div>
+        </section>
+
+        <section id="booking-form" class="container">
+            <h2>Book a Session</h2>
+            <form id="booking">
+                <label for="mentor">Choose a Mentor:</label>
+                <select id="mentor" name="mentor"></select>
+
+                <label for="time-slot">Choose a Time Slot:</label>
+                <select id="time-slot" name="time-slot"></select>
+
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SLIET Mentorship Platform. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
